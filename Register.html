@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>			
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Text Editor</title>
+		<link rel="ICON" href="Images\1468323-200.png">
+		<link rel="stylesheet" type="text/css" href="Register.css">
+	</head>
+
+	<body>
+	<div class="wrapper">
+		<div class="logo">
+			<img src="Images\Logo.png" alt="Logo">
+		</div>
+	</div>
+	<div id="container">
+		<form name="regi" action="register1.jsp" method="post">
+			<h2><u>Registration</u></h2>
+ 
+			<label for="r1" id="fn">First Name :</label>
+			<input type="text" name="fname" id="r1"><br/>
+ 
+			<label  for="r2" id="ln">Last Name :</label>
+			<input type="text" name="lname" id="r2"><br/>
+ 
+			<label  for="r3" id="un">Username :</label>
+			<input type="text" name="uname" id="r3"><br/>
+ 
+			<label  for="r4" id="pwd">Password :</label>
+			<input type="password" name="pass" id="r4"><br/>
+ 
+			<label  for="r5" id="em">Email :</label>
+			<input type="text" name="email" id="r5"><br/>
+ 
+	
+ 
+		<!--	<label for="r8" id="cy">City:</label>
+	
+			<select name="ct" id="r8">
+				<option>Select</option>
+				<option>Pune</option>
+				<option>Mumbai</option>
+				<option>Raigad</option>
+				<option>Nagpur</option>
+				<option>Nasik</option>
+				<option>Raigad</option>
+				<option>Nagar</option>
+				<option>Kolhapur</option>
+				<option>Solapur</option>
+			</select><br/><br/>
+		-->
+			<ul class="nav-area">
+				<li><button type="submit" value="Login"  id="submit" onClick="alert('Register Successfully')"><a href="User Login.html"><b>Register</b></a></button></li>
+				<li><button><a href="index.html"><b>Back To Home</b></a></button></li>
+			</ul>
+			<!--<button type="submit" value="Submit" id="button">Register</button>
+			<a href="index.html">Back to Home</a>-->
+ 
+		</form>
+	</div>
+		<script type="text/javascript">
+		function save(){
+			var user = document.getElementById("user").value;
+			var pwd = document.getElementById("pwd").value;
+			alert("username"+user+"password"+pwd);
+		}
+		</script>
+ 
+	</body>
+</html>
