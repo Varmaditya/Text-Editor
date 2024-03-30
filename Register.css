@@ -1,0 +1,103 @@
+/* Register form css */
+body{
+	margin: 0px;
+	text-align: center;
+	align: center;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+    background-color: rgba(230, 230, 250,0.8);
+}
+ .wrapper{
+    width: 1170px;
+    margin: 15px 84px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 50%;
+    padding:  0;
+}
+     
+input[type=text],[type=password],[type=number]{
+	width: 20%;
+	margin: 8px 0;
+	padding: 7px 10px;
+	display: inline-block;
+	border:1px solid #000066;
+	box-sizing: border-box;
+	background: rgba(230, 230, 250,0.8);
+}
+.nav-area{
+    float: center;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+	color: #1D2936;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #364d63;
+    color: #bebef3;
+}
+
+button{
+    border: 2px solid #1D2936;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #1D2936;
+	
+}
+     
+button:hover{
+    background: #364d63;
+    color: #bebef3;
+} 
+/*button{
+background-color:#4CAF50;
+width: 10%;
+padding: 9px 5px;
+margin:5px 0;
+cursor:pointer;
+border:none;
+color:#ffffff;
+margin-left: 80px;
+}
+ 
+button:hover{
+opacity:0.8;
+}
+*/ 
+#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+font-family:'Lato', sans-serif;
+color: #1D2936;
+}
+ 
+#em{
+margin-left:30px;
+}
+#container{
+    position: absolute;
+	top:2%;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+	border:2px solid #000066;
+	background: white;
+}
